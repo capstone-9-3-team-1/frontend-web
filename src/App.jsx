@@ -5,7 +5,12 @@ export default function App() {
   return (
     <div className="container">
       <header className="header">
-        <h1>Welcome to Atara 🍃</h1>
+        <img
+          src="https://storage.googleapis.com/atara_images/atara_logo.png"
+          alt="Atara Logo"
+          width="250"
+          height="100"
+        />
       </header>
       <div className="body-header">
         <h1>Choosing Green</h1>
@@ -18,32 +23,43 @@ export default function App() {
           <h2>
             <center>How It Works</center>
           </h2>
+
           <div className="feature-cards">
-            <div className="feature-card">
-              <h3>Create Your Account</h3>
-              <p>Begin browsing products based on your eco-values</p>
+            {/* imgs for the circles will go in these divs */}
+            <div className="feature-card"></div>
+            <div className="feature-card"></div>
+            <div className="feature-card"></div>
+            <div className="feature-card"></div>
+          </div>
+          <br></br>
+          <div className="features-card-content">
+            <div className="feature-card-content">
+              <h3>Redeem Your Tokens </h3>
+              <p>
+                Atara tokens can be redeemed <br></br>to earn exciting rewards !
+              </p>
             </div>
-            <div className="feature-card">
+            <div className="feature-card-content">
+              <h3>Snap A Pic </h3>
+              <p>
+                Upload a photo of your reciept <br></br>to recieve reward tokens{" "}
+              </p>
+            </div>
+
+            <div className="feature-card-content">
               <h3>Treat Yourself - And Our Earth</h3>
               <p>Make a purchase of any product listed on our site </p>
             </div>
-            <div className="feature-card">
-              <h3>Snap A Pic </h3>
-              <p>Upload a photo of your reciept to recieve reward tokens </p>
-            </div>
-            <div className="feature-card">
-              <h3>Redeem Your Tokens </h3>
-              <p>Atara tokens can be redeemed to earn exciting rewards !</p>
+            <div className="feature-card-content">
+              <h3>Create Your Account</h3>
+              <p>
+                Begin browsing products <br></br>based on your eco-values
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="app_info">
-
-        {/* <p>Who is Atara?</p> */}
-        {/* tell about the app here */}
-      </div>
       <div className="reviews">
         <h4>
           <center>Impact Stories</center>
@@ -51,22 +67,24 @@ export default function App() {
         <div className="review-cards">
           <div className="review-card">
             <h3>{/* possible picture of users here  */}</h3>
-            <p>User Story</p>
           </div>
           <div className="review-card">
-            <h3>{/*              Possible Picture Here*/}</h3>
-            <p>User Story</p>
+            <h3>{/* sPossible Picture Here*/}</h3>
           </div>
           <div className="review-card">
-            <h3>{/*                Possible Picture Here */}</h3>
-            <p>User Story</p>
+            <h3>{/* Possible Picture Here */}</h3>
           </div>
           <div className="review-card">
             <h3>{/* possible user picture here */}</h3>
-            <p>User Story</p>
           </div>
         </div>
         {/* user reviews with app */}
+        <div className="user-stories">
+          <p>User Story 1</p>
+          <p>User Story 2</p>
+          <p>User Story 3</p>
+          <p>User Story 4</p>
+        </div>
       </div>
       <br></br>
       <div className="mission">
