@@ -15,32 +15,32 @@ export default function App() {
           {/* place app link here */}
         </div>
         <div className="feature">
-          <h6>
+          <h2>
             <center>How It Works</center>
-          </h6>
-          {/* place key features here */}
+          </h2>
           <div className="feature-cards">
             <div className="feature-card">
-              <h3>Feature 1</h3>
-              <p>Description 1</p>
+              <h3>Create Your Account</h3>
+              <p>Begin browsing products based on your eco-values</p>
             </div>
             <div className="feature-card">
-              <h3>Feature 2</h3>
-              <p>Description 2</p>
+              <h3>Treat Yourself - And Our Earth</h3>
+              <p>Make a purchase of any product listed on our site </p>
             </div>
             <div className="feature-card">
-              <h3>Feature 3</h3>
-              <p>Description 3</p>
+              <h3>Snap A Pic </h3>
+              <p>Upload a photo of your reciept to recieve reward tokens </p>
             </div>
             <div className="feature-card">
-              <h3>Feature 4</h3>
-              <p>Description 4</p>
+              <h3>Redeem Your Tokens </h3>
+              <p>Atara tokens can be redeemed to earn exciting rewards !</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="app_info">
+
         {/* <p>Who is Atara?</p> */}
         {/* tell about the app here */}
       </div>

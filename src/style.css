@@ -104,6 +104,7 @@ body {
 .mission p {
   font-size: 1.2rem;
   color: #666;
+
   /* flex-direction: row; */
   /* justify-content: space-between; */
   /* align-items: flex-end; */
@@ -114,8 +115,15 @@ body {
 }
 
 .reviews h3 {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
   font-size: 2rem;
   color: #333;
+  text-align: center;
+  background-color: #7c7a7a;
+  padding: 10px;
+  border-radius: 8px;
 }
 .reviews {
   color: #0f0f0f;
