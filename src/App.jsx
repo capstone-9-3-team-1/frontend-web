@@ -95,7 +95,10 @@ export default function App() {
         </h4>
         <div className="review-cards">
           <div className="review-card">
-            <h3>{/* possible picture of users here  */}</h3>
+          <img
+                  src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b1c3e0418007416dfe668/download/image.png"
+                  alt="small-business"
+                ></img>
             <p>
               “As small business owners, we were keen to align our values with
               our business practices and find sustainable packaging solutions.
@@ -107,7 +110,10 @@ export default function App() {
             </p>
           </div>
           <div className="review-card">
-            <h3>{/* sPossible Picture Here*/}</h3>
+          <img
+                  src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b1c4dd8ee07f4063a813c/download/image.png"
+                  alt="small-business"
+                ></img>
             <p>
               “I had just moved to New York and, I was determined to make my new
               home as eco-friendly as possible. Thankfully, I discovered the
@@ -120,7 +126,10 @@ export default function App() {
             </p>
           </div>
           <div className="review-card">
-            <h3>{/* Possible Picture Here */}</h3>
+          <img
+                  src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b22ec52c2050c0af046b1/download/image.png"
+                  alt="dad-story"
+                ></img>
             <p>
               “As a father of two young kids, ensuring the safety of the
               products in our home has always been a top priority. That's why I
@@ -143,7 +152,8 @@ export default function App() {
           </div> */}
         </div>
         <br></br>
-        <div className="mission">
+      </div>
+      <div className="mission">
           <h4>
             <center>Mission Statement</center>
           </h4>
@@ -158,7 +168,6 @@ export default function App() {
             </center>
           </p>
         </div>
-      </div>
     </div>
   );
 }
