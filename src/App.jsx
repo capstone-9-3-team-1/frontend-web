@@ -106,5 +106,6 @@ export default function App() {
         </p>
       </div>
     </div>
+    </div>
   );
 }
