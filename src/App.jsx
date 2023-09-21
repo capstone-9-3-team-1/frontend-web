@@ -13,8 +13,8 @@ export default function App() {
         />
       </header>
       <div className="body-header">
-        <h1>Choosing Green</h1>
-        <h2>Gaining Gold </h2>
+        <h1>Saving The Planet</h1>
+        <h2>While Saving You Money </h2>
         <div className="app-link">
           <a href="#link-to-app">Get our App 📲</a>
           {/* place app link here */}
