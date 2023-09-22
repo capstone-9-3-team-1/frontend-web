@@ -95,10 +95,10 @@ export default function App() {
         </h4>
         <div className="review-cards">
           <div className="review-card">
-          <img
-                  src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b1c3e0418007416dfe668/download/image.png"
-                  alt="small-business"
-                ></img>
+            <img
+              src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b1c3e0418007416dfe668/download/image.png"
+              alt="small-business"
+            ></img>
             <p>
               “As small business owners, we were keen to align our values with
               our business practices and find sustainable packaging solutions.
@@ -110,10 +110,10 @@ export default function App() {
             </p>
           </div>
           <div className="review-card">
-          <img
-                  src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b1c4dd8ee07f4063a813c/download/image.png"
-                  alt="small-business"
-                ></img>
+            <img
+              src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b1c4dd8ee07f4063a813c/download/image.png"
+              alt="small-business"
+            ></img>
             <p>
               “I had just moved to New York and, I was determined to make my new
               home as eco-friendly as possible. Thankfully, I discovered the
@@ -126,10 +126,10 @@ export default function App() {
             </p>
           </div>
           <div className="review-card">
-          <img
-                  src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b22ec52c2050c0af046b1/download/image.png"
-                  alt="dad-story"
-                ></img>
+            <img
+              src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b22ec52c2050c0af046b1/download/image.png"
+              alt="dad-story"
+            ></img>
             <p>
               “As a father of two young kids, ensuring the safety of the
               products in our home has always been a top priority. That's why I
@@ -144,30 +144,24 @@ export default function App() {
               Sanchez, Atara User
             </p>
           </div>
-          {/* <div className="user-stories">
-            <p>User Story 1</p>
-            <p>User Story 2</p>
-            <p>User Story 3</p>
-            <p>User Story 4</p>
-          </div> */}
         </div>
         <br></br>
       </div>
       <div className="mission">
-          <h4>
-            <center>Mission Statement</center>
-          </h4>
-          <p>
-            <center>
-              <i>
-                We strive to empower users to “purchase positively” in terms of
-                their environmental impact and aim to expand our reach beyond
-                New York, catalyzing a global shift towards sustainable
-                practices and fostering a community of responsible consumers.
-              </i>
-            </center>
-          </p>
-        </div>
+        <h4>
+          <center>Mission Statement</center>
+        </h4>
+        <p>
+          <center>
+            <i>
+              We strive to empower users to “purchase positively” in terms of
+              their environmental impact and aim to expand our reach beyond New
+              York, catalyzing a global shift towards sustainable practices and
+              fostering a community of responsible consumers.
+            </i>
+          </center>
+        </p>
+      </div>
     </div>
   );
 }
