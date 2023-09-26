@@ -1,5 +1,6 @@
 import React from "react";
-import "./style.css";
+ import "./style.css";
+import HowItWorks from "./Components/HowItWorks";
 
 export default function App() {
   return (
@@ -12,88 +13,16 @@ export default function App() {
           height="100"
         />
       </header>
+
       <div className="body-header">
         <h1>Saving The Planet</h1>
         <h2>While Saving You Money </h2>
         <div className="app-link">
           <a href="https://frontend-web-atara.vercel.app/">Get our App 📲</a>
-          {/* place app link here */}
         </div>
       </div>
-      <div className="feature">
-        <h2>
-          <center>How It Works</center>
-        </h2>
+      <HowItWorks />
 
-        <div className="feature-cards">
-          {/* imgs for the circles will go in these divs */}
-          <div className="feature-card">
-            <img
-              src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b2568a1a6ecc7bc50e3d2/previews/650b2568a1a6ecc7bc50e401/download/image.png"
-              alt="account"
-              className="img-account"
-            ></img>
-             <h3>Create Your Account</h3>
-            <p>
-              Begin browsing products <br></br>based on your eco-values
-            </p>
-          </div>
-          <div className="feature-card">
-            <img
-              src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b25ec3f136e647e43e184/previews/650b25ed3f136e647e43e202/download/image.png"
-              alt="account"
-              className="img-earth"
-            ></img>
-          </div>
-          <div className="feature-card">
-            {" "}
-            <div className="feature-card">
-              <img
-                src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b28f341e22f9e71291d9f/previews/650b28f441e22f9e71291e2d/download/image.png"
-                alt="account"
-                className="img-snap"
-              ></img>
-            </div>
-            <h3>Treat Yourself - And Our Earth</h3>
-            <p>Make a purchase of any product listed on our site </p>
-          </div>
-          <div className="feature-card">
-            <div className="feature-card">
-              <img
-                src="https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b277e33f7d6604a6cb7c6/previews/650b277e33f7d6604a6cb821/download/image.pngs"
-                alt="account"
-                className="img-tokens"
-              ></img>
-            </div>
-          </div>
-        </div>
-        <br></br>
-        <div className="features-card-content">
-          <div className="feature-card-content">
-            <h3>Redeem Your Tokens </h3>
-            <p>
-              Atara tokens can be redeemed <br></br>to earn exciting rewards !
-            </p>
-          </div>
-          <div className="feature-card-content">
-            <h3>Snap A Pic </h3>
-            <p>
-              Upload a photo of your reciept <br></br>to recieve reward tokens{" "}
-            </p>
-          </div>
-
-          {/* <div className="feature-card-content">
-            <h3>Treat Yourself - And Our Earth</h3>
-            <p>Make a purchase of any product listed on our site </p>
-          </div> */}
-          {/* <div className="feature-card-content">
-            <h3>Create Your Account</h3>
-            <p>
-              Begin browsing products <br></br>based on your eco-values
-            </p>
-          </div> */}
-        </div>
-      </div>
       <div className="reviews">
         <h4>
           <center>Impact Stories</center>
