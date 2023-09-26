@@ -24,9 +24,8 @@ export default function ImpactStories() {
   return (
     <div>
       <div className="review-cards">
-        {" "}
         <center>
-          <h2 className="heading-impact">Impact Stories</h2>
+          <h2 >Impact Stories</h2>
         </center>
         {impactStories.map((item, i) => (
           <div key={i} className="review-card">
