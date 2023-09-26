@@ -192,3 +192,68 @@ body {
   margin-top: 10px;
   font-size: x-small;
 }
+
+/* Media Queries css settings */
+
+/* for cellphones  */
+@media (max-width: 768px) {
+  .header h3 {
+    font-size: 2rem;
+  }
+  .feature {
+    margin-top: 20px;
+  }
+  .feature-card {
+    width: 100px;
+    height: 100px;
+  }
+  .features-card-content {
+    font-size: x-small;
+  }
+  .app-link {
+    width: 80px;
+    height: 40px;
+  }
+}
+
+/* for tablets */
+@media (min-device-width: 769px) and (max-device-width: 1024px) {
+  .header h3 {
+    font-size: 2rem;
+  }
+  .feature {
+    margin-top: 30px;
+  }
+  .feature-card {
+    width: 120px;
+    height: 120px;
+  }
+  .features-card-content {
+    font-size: small;
+  }
+  .app-link {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+/* for desktop */
+@media (min-width: 1025px) {
+  .header h3 {
+    font: size 2.5rem;
+  }
+  .feature {
+    margin-top: 40px;
+  }
+  .feature-card {
+    width: 150px;
+    height: 150px;
+  }
+  .features-card-content {
+    font-size: x-small;
+  }
+  .app-link {
+    width: 100px;
+    height: 50px;
+  }
+}
