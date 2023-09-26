@@ -29,17 +29,22 @@ const howItWorks = [
 
 export default function HowItWorks() {
   return (
-    <div className="feature-cards">
-      {howItWorks.map((item, i) => (
-        <div key={i} className="feature-card">
-          <img src={item.image} alt={i}></img>
+    <div>
+      <center>
+        <h2 className="heading">How It Works</h2>
+      </center>
+      <div className="feature-cards">
+        {howItWorks.map((item, i) => (
+          <div key={i} className="feature-card">
+            <img src={item.image} alt={i}></img>
 
-          <p className="features-card-content">
-            <b>{item.text}</b>
-          </p>
-          <p className="features-card-content-2">{item.text2}</p>
-        </div>
-      ))}
+            <p className="features-card-content">
+              <b>{item.text}</b>
+            </p>
+            <p className="features-card-content-2">{item.text2}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
