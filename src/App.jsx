@@ -16,7 +16,7 @@ export default function App() {
         <h1>Saving The Planet</h1>
         <h2>While Saving You Money </h2>
         <div className="app-link">
-          <a href="#link-to-app">Get our App 📲</a>
+          <a href="https://frontend-web-atara.vercel.app/">Get our App 📲</a>
           {/* place app link here */}
         </div>
         <div className="feature">
