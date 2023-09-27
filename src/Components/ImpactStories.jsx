@@ -3,13 +3,13 @@ import "./impactStories.css";
 const impactStories = [
   {
     image:
-      "https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b1c3e0418007416dfe668/download/image.png",
+      "https://images.pexels.com/photos/6169659/pexels-photo-6169659.jpeg?auto=compress&cs=tinysrgb&w=800",
     text: "As small business owners, we were keen to align our values with our business practices and find sustainable packaging solutions. Discovering Atara was a game-changer. It offered a wide range of eco-friendly shipping products, such as recyclable boxes, compostable packaging, and reusable shipping supplies. We didn’t have to compromise on our vision or values thanks to the Atara team.",
     text2: "- The Small Business Team",
   },
   {
     image:
-      "https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b1c4dd8ee07f4063a813c/download/image.png",
+      "https://images.pexels.com/photos/7513064/pexels-photo-7513064.jpeg?auto=compress&cs=tinysrgb&w=800",
     text: "I had just moved to New York and, I was determined to make my new home as eco-friendly as possible. Thankfully, I discovered the Atara app, which became my go-to resource for finding biodegradable household products, from cleaning supplies to compostable kitchenware. The best part was that every purchase I made not only helped the environment but also earned me tokens within the app, which I could use to get even more eco-friendly items for my home!",
     text2: "- JoAnn, Atara User",
   },
