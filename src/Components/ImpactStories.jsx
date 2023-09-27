@@ -22,7 +22,7 @@ const impactStories = [
 ];
 export default function ImpactStories() {
   return (
-    <div>
+    <div id="impact-stories">
       <div className="review-cards">
         <center>
           <h2 >Impact Stories</h2>

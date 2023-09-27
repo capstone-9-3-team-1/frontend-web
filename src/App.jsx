@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import HowItWorks from "./Components/HowItWorks";
 import ImpactStories from "./Components/ImpactStories";
+import NavBar from "./Components/NavBar";
 
 export default function App() {
   return (
@@ -14,7 +15,7 @@ export default function App() {
           height="100"
         />
       </header>
-
+      <NavBar />
       <div className="body-header">
         <h1>Saving The Planet</h1>
         <h2>While Saving You Money </h2>
@@ -25,7 +26,7 @@ export default function App() {
       <HowItWorks />
       <ImpactStories />
 
-      <div className="mission">
+      <div id="mission" className="mission">
         <h4>
           <center>Mission Statement</center>
         </h4>

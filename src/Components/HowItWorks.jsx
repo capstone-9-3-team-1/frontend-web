@@ -29,7 +29,7 @@ const howItWorks = [
 
 export default function HowItWorks() {
   return (
-    <div>
+    <div id="how-it-works">
       <center>
         <h2 className="heading">How It Works</h2>
       </center>
