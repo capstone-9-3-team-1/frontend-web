@@ -1,27 +1,27 @@
 import "./howItWorks.css";
+import createAccount from "../assets/create_account.png";
+import rewardGift from "../assets/rewards_gifts.png";
+import snapPic from "../assets/snap_photo.png";
+import treatYourself from "../assets/treat_yourself.png";
 
 const howItWorks = [
   {
-    image:
-      "https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b2568a1a6ecc7bc50e3d2/previews/650b2568a1a6ecc7bc50e401/download/image.png",
+    image: createAccount,
     text: "Create Your Account",
     text2: "Begin browsing products based on your eco-values",
   },
   {
-    image:
-      "https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b25ec3f136e647e43e184/previews/650b25ed3f136e647e43e202/download/image.png",
+    image: treatYourself,
     text: "Treat Yourself And Our Earth",
     text2: "Make a purchase of any product listed on our site ",
   },
   {
-    image:
-      "https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b28f341e22f9e71291d9f/previews/650b28f441e22f9e71291e2d/download/image.png",
+    image: snapPic,
     text: " Snap A Pic",
     text2: "Upload a photo of your reciept to recieve reward tokens",
   },
   {
-    image:
-      "https://trello.com/1/cards/650b1ac38d18b22c249e580b/attachments/650b277e33f7d6604a6cb7c6/previews/650b277e33f7d6604a6cb821/download/image.pngs",
+    image: rewardGift,
     text: "Redeem Your Tokens",
     text2: "Atara tokens can be redeemed to earn exciting rewards !",
   },
@@ -29,7 +29,7 @@ const howItWorks = [
 
 export default function HowItWorks() {
   return (
-    <div>
+    <div id="how-it-works">
       <center>
         <h2 className="heading">How It Works</h2>
       </center>
